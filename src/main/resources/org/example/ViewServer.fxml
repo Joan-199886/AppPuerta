@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="900.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ServerController">
+   <children>
+      <Pane fx:id="border1" layoutX="20.0" layoutY="15.0" prefHeight="610.0" prefWidth="420.0" style="-fx-background-color: #bf1b1b;">
+         <children>
+            <Pane fx:id="pane1" layoutX="5.0" layoutY="5.0" prefHeight="600.0" prefWidth="410.0" style="-fx-background-color: #ECEBEB; -fx-border-color: black;">
+               <children>
+                  <Pane layoutX="21.0" layoutY="96.0" prefHeight="408.0" prefWidth="368.0">
+                     <children>
+                        <ImageView fx:id="entrada" fitHeight="398.0" fitWidth="358.0" layoutX="5.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Text layoutX="56.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registro De Ingreso">
+                     <font>
+                        <Font name="System Bold" size="32.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane fx:id="border2" layoutX="460.0" layoutY="15.0" prefHeight="610.0" prefWidth="420.0" style="-fx-background-color: #bf1b1b;">
+         <children>
+            <Pane fx:id="pane2" layoutX="5.0" layoutY="5.0" prefHeight="600.0" prefWidth="410.0" style="-fx-background-color: #ECEBEB; -fx-border-color: black;">
+               <children>
+                  <Pane layoutX="21.0" layoutY="96.0" prefHeight="408.0" prefWidth="368.0">
+                     <children>
+                        <ImageView fx:id="salida" fitHeight="398.0" fitWidth="358.0" layoutX="5.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" />
+                     </children>
+                  </Pane>
+                  <Text layoutX="68.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registro De Salida">
+                     <font>
+                        <Font name="System Bold" size="32.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</Pane>
